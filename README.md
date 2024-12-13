@@ -126,7 +126,7 @@ DenseNet264
 <!-- Practical Takeaways -->
 ## Practical Takeaways
 
-There doesn't seem to be a strong correlation with greater layer number and improved accuracy, however, testing wasn't extensive as only 5 models were used. However, the GradCam gradients clearly demonstrate that as layer number increases the model gets a much better undrstanding of the tumor location resulting in the gradient like appearance as opposed to whats seen in DenseNet121 and DenseNet169
+There doesn't seem to be a strong correlation with greater layer number and improved accuracy, however, testing wasn't extensive as only 5 models were used. However, the GradCam gradients clearly demonstrate that as layer number increases the model gets a much better undrstanding of the tumor location resulting in the gradient like appearance as opposed to whats seen in DenseNet121 and DenseNet169. Furthermore DenseNet169's GradCam image shown misses the tumor and the method in which it does so is pretty interesting. I speculate due to feature passing its intial miss of the glioma present in the anterior region of the shown brain image some slight discoloration or minor difference resulted in it compounding its mistake resulting in the GradCam gradient seen above.
 
 
 
